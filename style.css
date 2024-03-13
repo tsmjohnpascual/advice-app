@@ -97,3 +97,37 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/* Utility classes */
+
+.text-primary-400 {
+    color: var(--clr-primary-400);
+}
+
+.text-primary-300 {
+    color: var(--clr-primary-300);
+}
+
+.bg-neutral-900 {
+    color: var(--clr-neutral-900);
+}
+
+.bg-neutral-800 {
+    color: var(--clr-neutral-800);
+}
+
+.bg-neutral-700 {
+    color: var(--clr-neutral-700);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.fs-heading {
+    font-size: var(--fs-heading);
+}
+
+.fs-quote {
+    font-size: var(--fs-quote);
+}
