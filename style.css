@@ -99,7 +99,6 @@ textarea:not([rows]) {
 }
 
 /* Utility classes */
-
 .text-primary-400 {
     color: var(--clr-primary-400);
 }
@@ -109,15 +108,15 @@ textarea:not([rows]) {
 }
 
 .bg-neutral-900 {
-    color: var(--clr-neutral-900);
+    background-color: var(--clr-neutral-900);
 }
 
 .bg-neutral-800 {
-    color: var(--clr-neutral-800);
+    background-color: var(--clr-neutral-800);
 }
 
 .bg-neutral-700 {
-    color: var(--clr-neutral-700);
+    background-color: var(--clr-neutral-700);
 }
 
 .fw-bold {
@@ -130,4 +129,42 @@ textarea:not([rows]) {
 
 .fs-quote {
     font-size: var(--fs-quote);
+}
+
+/* Main Styles */
+body {
+    padding: 32% 1rem;
+}
+
+.container {
+    border-radius: 10px;
+    font-family: var(--ff-primary);
+    text-align: center;
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+h1 {
+    letter-spacing: 3.46px;
+}
+
+button {
+    width: 64px;
+    border-radius: 50%;
+    background-color: var(--clr-primary-400);
+    border: none;
+    position: absolute;
+    left: 41%;
+    top: 89%;
+}
+
+.dice {
+    padding: 20px;
+}
+
+.divider {
+    padding-bottom: 30px;
 }
