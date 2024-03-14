@@ -132,10 +132,6 @@ textarea:not([rows]) {
 }
 
 /* Main Styles */
-body {
-    padding: 32% 1rem;
-}
-
 .container {
     border-radius: 10px;
     font-family: var(--ff-primary);
@@ -145,6 +141,8 @@ body {
     flex-direction: column;
     gap: 24px;
     position: relative;
+    width: 343px;
+    margin: 120px auto 0 auto;
 }
 
 h1 {
@@ -156,9 +154,12 @@ button {
     border-radius: 50%;
     background-color: var(--clr-primary-400);
     border: none;
-    position: absolute;
-    left: 41%;
+    position: absolute; 
     top: 89%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
     cursor: pointer;
 }
 
@@ -170,6 +171,26 @@ button:hover {
     padding: 20px;
 }
 
-.divider {
+.divider-mobile {
     padding-bottom: 30px;
+}
+
+.divider-desktop {
+    display: none;
+}
+
+@media (min-width: 50em) {
+    .divider-mobile {
+        display: none;
+    }
+
+    .divider-desktop {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        width: 540px;
+        margin-top: 223px;
+    }
 }
