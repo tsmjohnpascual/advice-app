@@ -24,6 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="419" alt="screenshot" src="https://github.com/tsmjohnpascual/advice-app/assets/36450257/de8b5dc8-6031-4634-a0db-a5a9265b26b2">
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
